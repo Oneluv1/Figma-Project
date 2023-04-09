@@ -1,0 +1,136 @@
+.container{
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #F7F3D8;
+    backdrop-filter: blur(8px);
+}
+.container-fluid{
+    position: absolute;
+    min-width: 93vw;
+    min-height: 88vh;
+    left: 40px;
+    top: 40px;
+    background: #FFFEF6;
+    border-radius: 8px;
+    background-image: url("Mask Group.png");
+    background-position: right;
+    background-size:  719px;
+    background-repeat: no-repeat;
+}
+
+
+/*.beach{
+    
+    margin-top: -7.3rem;
+    margin-left: -12.3vw;
+    position: relative;
+}*/
+.container-fluid img{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.nav a{
+    
+    margin-left: 30px;
+    padding-right: 2rem;
+    text-decoration: none;
+    color: #000000;
+}
+.nav{
+    margin-top: -4.5rem;
+    margin-left:10rem;
+    
+}
+.nav a:hover{
+color: #88f1b7;
+transition: 0.2s;
+}
+.nav a.active{
+   color:  #88f1b7;
+}
+#box{
+    height: 58px;
+    width: 140px;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    font-size: large;
+    margin-left: 33vw;
+    opacity: 0.3;
+    font-weight: bold;
+    
+}
+.sen{
+    position:absolute; 
+    margin-left: -8rem;
+    margin-top: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Be{
+margin-top: -0.4rem;
+}
+#cha{
+    margin-left: -6.1rem;
+    
+}
+#place{
+    margin-top: 1rem;
+    border: 1.5px solid;
+    border-color: aquamarine;
+    padding: 1.3rem;
+    border-radius: 8px;
+    padding-left: 3rem;
+    width: 15rem;
+}
+#go{margin-top: 1.35rem;
+    margin-left: -3.5rem;
+    position: absolute;
+}
+#com{
+    margin-top: 1.6rem;
+    position: absolute;
+    margin-left: -19.5rem;
+}
+.tree{
+    margin-top: -3.9rem;
+    margin-left: -6.4rem;
+}
+.tree img{
+height: 115px;
+width: 145px;
+margin-top: 3.4rem;
+}
+button:hover{
+    opacity: 0.2;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+    background-color: aquamarine;
+}
+#go:hover{
+    cursor: pointer;
+    background-size: 100% 7em, 100% calc(100% - 7em);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #88f1b7;
+    transition: 0.2s;
+}
+/* Auto layout */
+
+/*display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 60px;
+gap: 10px;
+
+position: absolute;
+width: 185px;
+height: 73px;
+left: 1299px;
+top: 127px;
+
+border: 1px solid #000000;
+border-radius: 12px
+}
